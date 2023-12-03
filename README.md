@@ -15,3 +15,8 @@ bosh init_sh.sh
 ```
 python template.py
 ```
+
+# to run setup.py
+```
+python setup.py install
+```
