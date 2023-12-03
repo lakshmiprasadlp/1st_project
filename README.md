@@ -7,3 +7,5 @@
 '''
 bosh init_sh.sh
 '''
+# from pathlib import Path
+" it is convert / or \  based on system"
