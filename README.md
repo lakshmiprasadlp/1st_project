@@ -20,3 +20,11 @@ python template.py
 ```
 python setup.py install
 ```
+
+# to unstall list 
+```
+pip unstall DimondPricePrediction
+```
+```
+pip install -r requirements.txt
+```
