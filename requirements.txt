@@ -2,3 +2,8 @@ pandas
 numpy
 setuptools
 typing
+scipy
+mlflow
+ipykernel
+Flask
+streamlit

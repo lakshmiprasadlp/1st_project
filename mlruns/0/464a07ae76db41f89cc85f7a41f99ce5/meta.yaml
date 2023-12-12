@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/91938/Desktop/1st_project/mlruns/0/464a07ae76db41f89cc85f7a41f99ce5/artifacts
+end_time: 1702363727950
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 464a07ae76db41f89cc85f7a41f99ce5
+run_name: unruly-wasp-241
+run_uuid: 464a07ae76db41f89cc85f7a41f99ce5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702363720733
+status: 3
+tags: []
+user_id: '91938'
