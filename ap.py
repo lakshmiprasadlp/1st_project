@@ -48,11 +48,19 @@ def main():
     color_num = color_map[color]
     clarity_num = clarity_map[clarity]
 
-    if st.button("Predict"):
+  
+    if st.button("submit"):
+       
+        custom_data = CustomData(carat, depth, table, x, y, z, cut, color, clarity)
+        final_data = custom_data.get_data_as_dataframe()
+        predict_pipeline = PredictPipeline()
+        pred = predict_pipeline.predict(final_data)
         
-        pre = model.predict([[carat, depth, table, x, y, z,cut_num, color_num, clarity_num]])
-        st.success("Your Diamond Cost is {}".format(pre[0]))
-
-
+        result = round(pred[0], 2)
+        
+        st.write(f"Scaled and Transformed Result: {result}")
+        
+        
+       
 if __name__ == '__main__':
     main()
