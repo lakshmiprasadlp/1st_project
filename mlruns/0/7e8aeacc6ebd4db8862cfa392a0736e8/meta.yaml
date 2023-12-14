@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/91938/Desktop/1st_project/mlruns/0/7e8aeacc6ebd4db8862cfa392a0736e8/artifacts
+end_time: 1702530347191
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e8aeacc6ebd4db8862cfa392a0736e8
+run_name: rumbling-goat-153
+run_uuid: 7e8aeacc6ebd4db8862cfa392a0736e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702530342238
+status: 3
+tags: []
+user_id: '91938'
