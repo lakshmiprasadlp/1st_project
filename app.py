@@ -3,7 +3,7 @@ from src.DimondPricePrediction.pipelines.prediction_pipeline import CustomData,P
 
 from flask import Flask,request,render_template,jsonify
 
-
+#lp
 app=Flask(__name__)
 
 
